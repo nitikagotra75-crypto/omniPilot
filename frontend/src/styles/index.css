@@ -1,0 +1,59 @@
+@import "@fontsource-variable/fredoka";
+@import "@fontsource/mochiy-pop-one";
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  color-scheme: light;
+}
+
+html,
+body,
+#root {
+  height: 100%;
+}
+
+body {
+  @apply bg-paper font-sans text-ink antialiased;
+  overflow: hidden;
+}
+
+::selection {
+  background: #ffe566;
+}
+
+* {
+  scrollbar-width: thin;
+  scrollbar-color: #c4b8ea transparent;
+}
+
+@layer components {
+  .btn {
+    @apply inline-flex select-none items-center justify-center gap-2 rounded-xl px-4 py-2 text-sm font-semibold transition disabled:cursor-not-allowed disabled:opacity-40;
+  }
+  .btn-primary {
+    @apply btn border-2 border-ink bg-pink-400 text-ink shadow-pop-sm hover:bg-pink-300 active:translate-y-[3px] active:shadow-none;
+  }
+  .btn-outline {
+    @apply btn border-2 border-ink/80 bg-surface text-ink hover:bg-lilac;
+  }
+  .btn-ghost {
+    @apply btn text-ink-soft hover:bg-lilac hover:text-ink;
+  }
+  .btn-danger {
+    @apply btn border-2 border-rose-400 bg-surface text-rose-400 hover:bg-rose-400 hover:text-white;
+  }
+  .field {
+    @apply w-full rounded-xl border-2 border-ink/25 bg-surface px-3 py-2 text-sm text-ink outline-none placeholder:text-ink-faint focus:border-ink;
+  }
+  .card {
+    @apply rounded-2xl border-2 border-ink/20 bg-surface;
+  }
+  .label {
+    @apply mb-1.5 block text-xs font-semibold text-ink-soft;
+  }
+  .chip {
+    @apply inline-flex items-center rounded-full border border-ink/20 px-2.5 py-0.5 text-xs font-semibold;
+  }
+}

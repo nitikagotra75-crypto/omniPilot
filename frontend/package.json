@@ -1,0 +1,29 @@
+{
+  "name": "omnipilot-frontend",
+  "version": "0.3.0",
+  "description": "OmniPilot web UI (React + Vite + Tailwind). Served by the backend; no Electron.",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "format": "prettier --write src",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@fontsource-variable/fredoka": "^5.3.0",
+    "@fontsource/mochiy-pop-one": "^5.3.0",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "socket.io-client": "^4.8.1",
+    "zustand": "^4.5.5"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-react": "^4.3.1",
+    "autoprefixer": "^10.4.20",
+    "postcss": "^8.4.47",
+    "prettier": "^3.9.10",
+    "tailwindcss": "^3.4.13",
+    "vite": "^5.4.8"
+  }
+}
