@@ -16,8 +16,8 @@ OmniPilot is a voice-first AI assistant that does real work on your computer. Yo
 
 | Area | Examples (say or type) |
 |---|---|
-| **Answer questions** | "React me useState kya hota hai?" |
-| **Know your laptop** | "Kaun si apps chal rahi hain?" · "Memory kitni use ho rahi hai?" · "Internet chal raha hai?" |
+| **Answer questions** | "What is useState in raect?" |
+| **Know your laptop** | "whats app running now in my laptop?" · "Memory kitni use ho rahi hai?" · "Internet chal raha hai?" |
 | **Files** | "Downloads me saari PDF dhundho" · "notes.txt banao" · "Downloads se img4 kholo" |
 | **Delete (safely)** | "Ye file delete karo" → it **asks first**, then moves it to a trash folder |
 | **PDF** | merge, compress, extract pages, info |
