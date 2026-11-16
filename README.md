@@ -5,7 +5,7 @@
 OmniPilot is a voice-first AI assistant that does real work on your computer. You tap the mic and say
 *"Open img4 from download folder"*. It finds the file, opens it, and answers back in your language (Hindi, English or Hinglish).
 
-Built for the **Gnani.ai Great Internship Challenge**. Speech comes in through **Gnani Prisma** and goes out through
+ Speech comes in through **Gnani Prisma** and goes out through
 **Gnani Timbre**. The whole project is JavaScript (no Python).
 
 > OmniPilot never says "done" unless it checked. If it cannot check, the result is shown as **unverified**.
